@@ -34,7 +34,5 @@ searchButton.addEventListener('click', function (event) {
                 resultsDiv.appendChild(trackSongP)
             }
         }
-
     })
 })
-
