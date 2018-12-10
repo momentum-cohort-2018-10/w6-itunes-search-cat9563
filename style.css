@@ -74,7 +74,7 @@
         text-align: center;
     }
 
-    /* .coverPic img {
+    .coverPic img {
         width: 100%;
         text-align: center;
     }
@@ -92,13 +92,14 @@
         font-size: 24px;
         width: 50%;
         height: 55%;
-    } */
+    } 
     
     .resultsDiv{
         width: 100%;
     } 
     
     p{
+        border: 1px solid #000;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
