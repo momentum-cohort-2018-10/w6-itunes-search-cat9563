@@ -33,7 +33,7 @@ searchButton.addEventListener('click', function (event) {
                 let songLinks = document.createElement("a")
                 let trackArtistP = document.createElement("p")
                 let coverPic = document.createElement("img")
-                coverPic.src = track.artworkUrl100
+                coverPic.src = track.artworkUrl100//.replace('100x100','225x225')
                 songLinks.href = track.trackViewUrl
                 songLinks.innerText = track.trackName
                 artP.innerText = track.artistName
